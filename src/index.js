@@ -7,7 +7,7 @@ function rangeSlider(){
 
     const input = document.createElement('input')
     input.type = 'range'
-    
+
     const style = document.createElement('style')
     style.textContent = getTheme()
 
@@ -18,7 +18,7 @@ function rangeSlider(){
 function getTheme(){
     return `
     :host(.container) {
-        background-color: #c1c1c1;
+        background-color: red;
         border-radius: 5px;
     }
     input{
